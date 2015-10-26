@@ -9,7 +9,7 @@ namespace Task2BubbleShort
     class BubbleShortSumm : BubbleShort
     {
         public BubbleShortSumm(int[][] array)
-            : base(array)
+            : base()
         {
         }
         protected override void UpdateKey(int i, int j)

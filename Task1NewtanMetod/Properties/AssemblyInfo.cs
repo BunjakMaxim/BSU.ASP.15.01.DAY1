@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Task1NewtonsMethod")]
+[assembly: AssemblyTitle("Task1NewtanMetod")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Infobel 2012")]
-[assembly: AssemblyProduct("Task1NewtonsMethod")]
+[assembly: AssemblyProduct("Task1NewtanMetod")]
 [assembly: AssemblyCopyright("Copyright © Infobel 2012 2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("4a3810ff-8c35-4723-9dc6-82502841e8ab")]
+[assembly: Guid("7ba096cf-fafc-4f76-bf54-d205d3356c00")]
 
 // Version information for an assembly consists of the following four values:
 //

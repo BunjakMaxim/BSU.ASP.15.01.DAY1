@@ -2,20 +2,16 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Collections;
 using System.Threading.Tasks;
 
 namespace Task2BubbleShort
 {
-    class BubleShortMax : BubbleShort
+    class BubleShortMax : IComparer<int[]>
     {
-        public BubleShortMax(int[][] array)
-            : base(array)
+        public int Compare(int[] x, int[] y)
         {
-        }
-        protected override void UpdateKey(int i, int j)
-        {
-            if (_keys[i] < _array[i][j])
-                _keys[i] = _array[i][j];
+            return x.Max() - y.Max();
         }
     }
 }

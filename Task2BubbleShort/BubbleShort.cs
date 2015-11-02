@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace Task2BubbleShort
 {
-    abstract class BubbleShort
+    class BubbleShort
     {
-        IComparer comparer;
+        IComparer<int[]> comparer;
 
-        public BubbleShort(IComparer comp)
+        public BubbleShort(IComparer<int[]> comp)
         {
             this.comparer = comp;
         }
